@@ -1,1 +1,1 @@
-print("this is end")
+print('this is end')
