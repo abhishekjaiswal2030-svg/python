@@ -11,3 +11,4 @@ print('class name:',class_s,'the user input name is: ',name,'class time :', time
 print(type(name),type(time),type(class_s))
 roll=123
 
+
