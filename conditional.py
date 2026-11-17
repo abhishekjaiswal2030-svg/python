@@ -1,11 +1,13 @@
 #control flow statement 
 #conditional == dision  
 #loop
-name = input("User Name: ")
-age = int(input("User Age: "))
-country = input("User Country: ").strip().title()
 
-if country == "United Kingdom":
+for i in range(0,2):
+ name = input("User Name: ")
+ age = int(input("User Age: "))
+ country = input("User Country: ").strip().title()
+
+ if country == "United Kingdom":
     print("Name:",name)
     print('Country:',country)
     print("You are UK citizen")
@@ -15,8 +17,8 @@ if country == "United Kingdom":
     else:
         print('Age:',age)
         print("You are not eligible for vote")
-else:
+ else:
     print("You are not from United Kingdom")
 
-print("Thank you for applying for the voter list.")
+ print("Thank you for applying for the voter list.")
  

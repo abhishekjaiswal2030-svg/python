@@ -1,7 +1,7 @@
 # --- Data Types & Collections ---
 name = ['abhi', 'jais', 'shafi', 'jatin']       # List (mutable)
 name_1 = ('abhi', 'jais', 'shafi', 'jatin')   # Tuple (immutable)
-user = {"name": "Aarav", "age": 25}           # Dictionary
+user = {"name": "Aarav", "age": 0.7}           # Dictionary
 
 # --- Basic Arithmetic & Type Casting ---
 a = 40
@@ -17,14 +17,15 @@ x = 12.68
 x = int(x)
 print(type(x), x)                             # Output: <class 'int'> 12
 
-# --- List Operations & Modifications ---
+# --- List Operations & Modifications --------
+
 name[0] = 'Abhishek'                          # Modifying the first list element
 print(name[0])                                # Output: Abhishek
 print(name[2])                                # Output: shafi
 print(len(name))                              # Output: 4
 
 # Counting characters in string (Note: range 0 to 2 checks 'Ab', so 'a' count is 1)
-print(name[0].count('a', 0, 2))
+print(name[0].count('a',0,2))
 
 # --- Dictionary Operations ---
 print('dict', user)                           # Output: dict {'name': 'Aarav', 'age': 25}
