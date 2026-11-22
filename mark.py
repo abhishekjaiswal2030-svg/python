@@ -2,6 +2,7 @@
 
 marks=[int(input("Student Math:")),int(input("Student physics:")),int(input("Student Computer:")),int(input("Student Art:")),int(input("Student English:")),int(input("Student Hindi:"))]
 total_marks=marks[0]+marks[1]+marks[2]+marks[3]+marks[4]+marks[5]
+i=0
 if total_marks>=198 and total_marks<600:
  print('Total Marks:',total_marks,'Pass') 
 else:

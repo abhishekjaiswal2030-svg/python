@@ -38,9 +38,10 @@ print(user['age'])                            # Output: 25
 print(list(user.keys())[0])                   # Output: name
 
 # --- List Sorting & Methods ---
-str_list = [20, 40, 50, 30]                   # (Changed variable name from 'str' to 'str_list' because 'str' is a built-in keyword)
-str_list.insert(0, 10)
-str_list.sort()
+str_list = [20, 40, 50, 30]      
+print(str_list)                               # (Changed variable name from 'str' to 'str_list' because 'str' is a built-in keyword)
+str_list.insert(2, 10)                              # Inserting 10 at index 1
+str_list.sort()                                 # Sorting the list
 
 print(str_list.index(50))                     # Output: Index of 50 after sorting
 print(str_list)                               # Output: [10, 20, 30, 40, 50]

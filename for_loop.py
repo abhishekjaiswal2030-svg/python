@@ -50,3 +50,33 @@ for i in range(first_number, second_number + 1):
     else:
         print("Odd Number:", i) 
 '''
+list = [10, 5, 2, 50, 6, -4]
+max_value=list[0]
+min_value=list[0]
+for i in list:
+ if i>max_value:
+    max_value=i
+   
+ if i<min_value:
+    min_value=i
+print('max value:',max_value)
+print('min value:',min_value)
+
+'''
+sum=list[0]
+for i in list:
+ i+=sum
+ sum=i
+print(sum)
+'''
+
+'''
+length=list.__len__()
+sum=list[0]
+avg=sum/length
+for i in list:
+ i+=sum
+ sum=i
+avg=sum/length
+print(avg)
+'''

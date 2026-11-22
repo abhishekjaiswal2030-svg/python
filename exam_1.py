@@ -36,7 +36,7 @@ else:
  print(user,': You are not Eligibile for Voting')
 '''
 '''
-#Q5. Check Password.
+#Q5.Check Password.
 user_name=input('Enter User Name:')
 user_password=input('Enter User Password:')
 user=('Admin')
@@ -46,6 +46,7 @@ if user==user_name and password==user_password:
 else:
  print('chal bhak')
 '''
+'''
 #Q6. Student Pass or Fail.
 
 marks=[int(input("Student Math:")),int(input("Student physics:")),int(input("Student Computer:")),int(input("Student Art:")),int(input("Student English:")),int(input("Student Hindi:"))]
@@ -54,8 +55,7 @@ if total_marks>=198 and total_marks<600:
  print('Total Marks:',total_marks,'Pass') 
 else:
  print('Total Marks:',total_marks,'fail')
-
-
+'''
 
 
 
