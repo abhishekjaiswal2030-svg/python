@@ -80,3 +80,11 @@ for i in list:
 avg=sum/length
 print(avg)
 '''
+
+start=int(input("Start:"))
+end=int(input("End:"))
+for j in range(start,end+1):
+ for i in range(1,11):
+  print(j*i)
+ print("================")
+print()
