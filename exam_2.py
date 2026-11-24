@@ -41,6 +41,7 @@ for i in range(1, n + 1):
 print("Factorial:", fact)
 
 # 7. Sum of factorials (1! + 2! + ... + n!)
+# nested for loop
 print("\n--- 7. Sum of Factorials ---")
 limit = int(input("Enter limit for sum of factorials: "))
 total = 0

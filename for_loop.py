@@ -80,7 +80,17 @@ for i in list:
 avg=sum/length
 print(avg)
 '''
+start=int(input("Start:"))
+end=int(input("End:"))
+for i in range(start,end+2):
+ if i%2!=00:
+  print(i)
 
+
+
+
+
+'''
 start=int(input("Start:"))
 end=int(input("End:"))
 for j in range(start,end+1):
@@ -88,3 +98,4 @@ for j in range(start,end+1):
   print(j*i)
  print("================")
 print()
+'''
