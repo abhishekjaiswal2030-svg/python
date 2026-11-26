@@ -1,7 +1,3 @@
-#control flow statement 
-#conditional == dision  
-#loop
-
 for i in range(0,2):
  name = input("User Name: ")
  age = int(input("User Age: "))

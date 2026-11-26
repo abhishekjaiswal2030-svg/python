@@ -1,14 +1,4 @@
 '''
-for i in range(0,10):
- number=int(input())
- if number>0:
-  print('postive')
- elif number<0:
-  print('negative')
- else:
-  print('zero')
-'''
-'''
 for i in range(0,101):
  if i%3==0 and i%5==0:
   print(i)
@@ -34,14 +24,5 @@ else:
  print('bhag jao')
 '''
 
-for i in range(0,5):
- user_name=input('Enter User Name:')
- user_password=input('Enter User Password:')
- user=('admin')
- password=('sql123')
- if user==user_name and password==user_password:
-  print('welcome in python')
- else:
-  print('chal bhak')
-print('admin','sql123')
+
 
