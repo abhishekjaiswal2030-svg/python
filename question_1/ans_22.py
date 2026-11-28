@@ -1,5 +1,5 @@
 #22. Write a program to check whether a number is prime. Use a for loop and a conditional statement.
-n=int(input("Enter the Number: "))
+n=int(input("Enter the Number: "))#5
 div=0
 for i in range(1,n+1):
  if n%i==0:

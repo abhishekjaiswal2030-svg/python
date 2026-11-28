@@ -86,10 +86,6 @@ for i in range(start,end+2):
  if i%2!=00:
   print(i)
 
-
-
-
-
 '''
 start=int(input("Start:"))
 end=int(input("End:"))
